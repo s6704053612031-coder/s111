@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#search {
+    margin-top: 10px;
+    padding: 8px;
+    width: 60%;
+}
+
+#comic-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.comic {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.comic h3 {
+    margin: 0;
+    color: #333;
+}
